@@ -12,5 +12,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashanksgpavan-dev/MIT_ANGULAR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shashanksgpavan-dev/MIT_ANGULAR/issues"
+  },
+  "homepage": "https://github.com/shashanksgpavan-dev/MIT_ANGULAR#readme"
 }
