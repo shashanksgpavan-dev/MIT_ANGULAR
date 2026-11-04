@@ -11,7 +11,7 @@
 </head>
 <body ng-controller="CollegeController">
 
-    <h1>{{ collegeName }}</h1>
+    <h1> collegeName </h1>
 
     <div ng-controller="StudentController">
         <!-- Form Inputs -->
@@ -26,12 +26,12 @@
 
         <!-- Show / Hide Details -->
         <div ng-show="showDetails">
-            <p>Name: {{ name }} | Dept: {{ dept }} | Sem: {{ sem }}</p>
+            <p>Name: name | Dept: dept | Sem:  sem </p>
         </div>
 
         <!-- Result -->
         <p ng-if="marks != null" ng-class="{'pass': marks >= 40, 'fail': marks < 40}">
-            Result: {{ marks >= 40 ? 'Pass' : 'Needs Improvement' }} ({{ marks }})
+            Result:  marks >= 40 ? 'Pass' : 'Needs Improvement'  ( marks )
         </p>
 
         <!-- Student List -->
