@@ -8,9 +8,33 @@
      <script src="app.js"></script>
 
 </head>
-<body ng-controller="MyController">
-    <h1>student details</h1>
-    <h1>Hello {{name}} </h1>
+<body>
+    
+<div ng-controller="CollegeController">
+
+<h2>Welcome to {{collegeName}}</h2>
+<hr>
+<div ng-controller="StudentController">
+    <h2>student registration</h2>
+    <label>student name</label>
+    <input type="text" ng-model="name">
+    <br><br>
+    <h3>semister</h3>
+      <label>student name</label>
+    <input type="text" ng-model="semister">
+    <hr>
+    <h3>student details</h3>
+    <p>name:{{name}}</p>
+    <p>department:{{department}}</p>
+    <p>semester:{{semester}}</p>
+
+    <h2>student list</h2>
+    <ul>
+        <li ng-repeat="student in students">{{student}}</li>
+    </ul>
+</div>
+
+    </div>
 
 </body>
 </html>
